@@ -1,1 +1,1 @@
-export const BASE_URL="https://mp-json-server-414p.onrender.com/"
+export const BASE_URL="https://mp-json-server-414p.onrender.com"
