@@ -1,0 +1,71 @@
+=>Media Player
+
+
+->Landing
+    -header
+    -footer
+->Dashboard
+    -header
+    -footer
+    -add vedio
+    -list vedio
+    -category
+->History
+
+1.Landingpage-intro
+2.Add youtube vedios
+3.list added vedios
+4.Play added vedios
+5.Delete added vedios
+6.Add category
+7.List category
+8.list category vedios
+9.Add vedio to categories
+10.delete categories
+11.list watch History
+
+->project create
+->clean up
+->basic css
+->react-bootstrap install
+    -npm i react-bootstrap bootstrap
+->set bootstrap theam
+    -bootswatch.com[bootstrap.min.css]
+->pages and components
+->Routing of pages and components
+    -react-router-dom
+    -npm i react-router-dom
+
+->Axios
+-------
+-package with method for XmalHttpRequest
+-handles data transformation itsself
+-Promide based client side method
+-to install
+    npm i axios
+
+-axios request structure
+    -basic get request
+    axios.get("url")
+    -othet request
+    const req=axios.create({options})
+
+    {options}=>
+        {
+            base_url:"localhost:3000",
+            url:"/allVideos",
+            method:"post",
+            header:{"content-Type":"application/json" / "text/plain" / "multipart/form-data"},
+            data:{caption:"caption",url:"videourl",image:"img-address-url"}
+        }
+
+    ->using axios() method
+    axios(
+        
+        {
+            url:"localhost:3000/allVideos",
+            method:"post",
+            header:{"content-Type":"application/json" / "text/plain" / "multipart/form-data"},
+            data:{caption:"caption",url:"videourl",image:"img-address-url"}
+        }
+    ).then().catch()
